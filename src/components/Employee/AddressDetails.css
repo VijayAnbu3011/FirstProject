@@ -1,0 +1,9 @@
+.anticon anticon-plus-circle svg {
+    color: black;
+}
+button.Add_btn{
+    margin-left: 1200px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

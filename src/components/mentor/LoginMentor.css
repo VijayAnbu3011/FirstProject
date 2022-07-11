@@ -1,0 +1,120 @@
+.page  {
+    background-image: url('/public/asset1/wepik-2022319-214333.png');
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.login{
+    width: 800px;
+    height:500px ;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    background-image: url('/public/asset1/wepik-2022319-214333-1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 4px;
+}
+.login_content{
+    width: 310px;
+    height:500px ;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: rgb(87, 84, 84);
+    background-image: none;
+}
+.login_logo{
+    background: transparent url('/public/asset1/Artboard\ –\ 2.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 33px;
+    width: 244px;
+    height: 91px;
+}
+.login_text{
+    background: local;
+    text-align: center;
+    font: 28px/280px Abril Fatface;
+    color:#FFAA17 ;  
+}
+.login_form Form {
+    /* background-image: none; */
+    background: none;
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    width: 300px;
+}
+.line{
+    width: 250px;
+    border: 1px solid #c4c4c4  ;
+    position: absolute;
+    top: 450px;
+    left: 25px;
+}
+.footer{
+    position: absolute;
+    top: 470px;
+    left: 25px;
+    display: flex;
+    font-size: 8px;
+}
+.footer .copyrights{
+    background: none;
+    color: white;
+
+}
+.footer .tc{
+    background: none;
+    color: white;
+}
+.btn {
+    position: absolute;
+    top: 370px;
+    left: 40px;
+    background: none;
+    background-color:#FAA81D ;
+    border-radius: 8px;
+}
+
+.btn :nth-child(1){
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;   
+    background: none;
+    background-color: #FAA81D;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn :nth-child(2){
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: none;
+    background-color:  rgb(77, 75, 75);
+    border:1px solid #FAA81D ;
+    color: white;
+    cursor: pointer;
+}
+.img_space img{
+    width: 800px;
+    height: 500px;
+   }
+   .img_space p{
+       color: white;
+       font-size: 40px;
+       position: absolute;
+       top: 350px;
+       padding-left: 30px;
+       background: local;
+   }

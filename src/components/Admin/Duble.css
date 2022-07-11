@@ -1,0 +1,111 @@
+.page_all_Admin{
+    background-color: #FFFFFF;
+}
+.page_all_Admin .header_nav{
+    background-color: #FFFFFF;
+    width: auto;
+    height: 60px;
+    box-shadow: 0px 2px 6px #0000000A;
+    opacity: 1;
+}
+.page_all_Admin .logo{
+    background: transparent url('/public/asset/logo1.png');
+    position: relative;
+    width: 188px;
+    height: 50px;
+    left: 32px;
+    top: 8px;
+}
+.header_logout button{
+    position: absolute;
+    top: 16px;
+    right: 30px;
+    background: none;
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 4px;
+    color: blue;   
+}
+.header_logout button:hover{
+    box-shadow: 0px 0px 4px blue;
+}
+.page_all_Admin .side_nav{
+    background-color: #FFFFFF;
+    width: 60px;
+    height: 550px;
+    box-shadow: 0px 0px 6px #0000000A;
+    opacity: 1;
+}
+.group_btn1{
+    background: transparent url('/public/asset/group\ \(1\).png') 0% 0% no-repeat border-box;
+    background-position: center;
+    position: absolute;
+    bottom: 500px;
+    width: 55px;
+    height: 60px;
+    left: 2px;
+    top: 100px;
+    color: #086288;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.group_btn1 p{
+    position: absolute;
+    padding-top: 10px;
+    left: 10px;
+}
+.team_btn1{
+    background: transparent url('/public/asset/team\ \(4\).png') 0% 0% no-repeat border-box;
+    background-position: center;
+    position: absolute;
+    bottom: 450px;
+    width: 45px;
+    height: 40px;
+    left: 2px;  
+    top: 175px; 
+    color: #086288;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}.team_btn1 p{
+    position: absolute;
+    padding-top: 10px;
+    left: 3px;
+}
+.add_btn1{
+    background: transparent url('/public/asset/add-user\ \(2\).png') 0% 0% no-repeat border-box;
+    background-position: center;
+    position: absolute;
+    bottom: 400px;
+    width: 45px;
+    height: 40px;
+    left: 2px;
+    top: 240px;
+    color: #086288;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}.add_btn1 p{
+    position: absolute;
+    padding-top: 10px;
+    left: 3px;
+}
+.side_nav {
+    display: flex;
+}
+/* .side_nav .breadcrum_area{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    width: 1280px;
+    height: 30px;
+    background-color: rgb(243, 241, 241);
+} */
+.content{
+    position: absolute;
+    top: 105px;
+    left: 65px;
+    width: 1260px;
+    height: fit-content;
+}

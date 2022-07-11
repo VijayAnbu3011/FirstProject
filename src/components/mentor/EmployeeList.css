@@ -1,0 +1,8 @@
+.buttonGiveRateing{
+    border: none;
+    color: blue;
+}
+.buttonGiveRateing:hover{
+    background-color: blue;
+    color: white;
+}

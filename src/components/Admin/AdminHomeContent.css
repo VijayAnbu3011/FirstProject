@@ -1,0 +1,41 @@
+.breadcrum_area{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.content{
+    position: absolute;
+    top: 105px;
+    left: 80px;
+    width: 1260px;
+    height: fit-content;
+}
+.content_nav{
+    display:flex;
+}
+ .content .content_nav .nav_batch{
+    color: #FAA81D;
+    position: absolute;
+    top: 15px;
+    left:30px;
+}
+.content .content_nav .nav_input{
+    position: absolute;
+    right: 150px;
+    top:10px;
+}
+.content .content_nav .nav_btn button{
+    background-color: #FAA81D;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    position: absolute;
+    right: 40px;
+    top:15px;
+}
+.content_table{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 1260px;
+}
